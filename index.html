@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>GameZone</title>
+<style>
+*{box-sizing:border-box}body{margin:0;font-family:Arial,sans-serif;background:#0b1020;color:#fff}
+header{padding:42px 20px;text-align:center;background:linear-gradient(135deg,#151b3d,#26306b)}
+h1{font-size:48px;margin:0 0 10px}.tag{opacity:.8;font-size:18px}
+.grid{max-width:1050px;margin:35px auto;padding:0 20px;display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:20px}
+.card{background:#171d35;border:1px solid #30395f;border-radius:18px;padding:25px;text-align:center;transition:.2s}
+.card:hover{transform:translateY(-5px);border-color:#6675ff}
+.icon{font-size:52px}.card h2{margin:12px 0 8px}.card p{color:#b9c0d9;min-height:44px}
+a{display:inline-block;padding:12px 22px;border-radius:10px;background:#5967ff;color:white;text-decoration:none;font-weight:bold}
+footer{text-align:center;color:#8e96b5;padding:30px}
+.notice{max-width:900px;margin:0 auto 20px;padding:15px 20px;background:#11172b;border-radius:12px;color:#b9c0d9}
+</style>
+</head>
+<body>
+<header>
+  <h1>🎮 GameZone</h1>
+  <div class="tag">Your place to play browser games</div>
+</header>
+
+<main>
+<div class="notice">
+Games below are provided through their official or authorized pages. Replace each link with a URL you are authorized to use if you want the game to launch directly from your site.
+</div>
+<section class="grid">
+  <article class="card"><div class="icon">⛏️</div><h2>Eaglercraft / Minecraft</h2><p>Browser Minecraft-style gaming.</p><a href="#" onclick="alert('Add your authorized Eaglercraft game URL here.');return false;">Play</a></article>
+  <article class="card"><div class="icon">🏂</div><h2>Snow Rider 3D</h2><p>Ride through the snowy course.</p><a href="#" onclick="alert('Add the authorized game URL here.');return false;">Play</a></article>
+  <article class="card"><div class="icon">🔺</div><h2>Geometry Dash</h2><p>Jump, fly, and dodge obstacles.</p><a href="#" onclick="alert('Add the authorized game URL here.');return false;">Play</a></article>
+  <article class="card"><div class="icon">〰️</div><h2>Wave Dash</h2><p>Test your timing and reflexes.</p><a href="#" onclick="alert('Add the authorized game URL here.');return false;">Play</a></article>
+</section>
+</main>
+<footer>© 2026 GameZone • Built for browser gaming</footer>
+</body>
+</html>
